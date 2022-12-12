@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.qfedu</groupId>
+    <artifactId>maven_04_dao</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>jar</packaging>
+
+
+    <!--        <dependency>-->
+    <!--            <groupId>org.example</groupId>-->
+    <!--            <artifactId>maven_03_project</artifactId>-->
+    <!--            <version>1.0-SNAPSHOT</version>-->
+
+    <!--        </dependency>-->
+
+    <!--  配置当前工程继承自parent工程-->
+    <parent>
+        <groupId>com.qfedu</groupId>
+        <artifactId>maven_01_pro</artifactId>
+        <version>1.0-SNAPSHOT</version>
+        <relativePath>../maven_01_pro/pom.xml</relativePath>
+    </parent>
+    <dependencies>
+<!--        <dependency>-->
+<!--            <groupId>com.qfedu</groupId>-->
+<!--            <artifactId>springmvc_ssm_02_result</artifactId>-->
+<!--            <version>1.0-SNAPSHOT</version>-->
+ <!--        可选依赖是隐藏当前工程所依赖资源，隐藏后对应资源不具有依赖的传递性-->
+<!--         false  true-->
+<!--            <optional>false</optional>-->
+<!--        </dependency>-->
+
+<!--        <dependency>-->
+
+
+<!--         排除依赖是隐藏当前资源对应的依赖关系  exclusions 其它的也可以隐藏-->
+
+<!--            <exclusions>-->
+<!--                <exclusion>-->
+<!--                    <groupId>log4j</groupId>-->
+<!--                    <artifactId>log4j</artifactId>-->
+<!--                </exclusion>-->
+<!--                <exclusion>-->
+<!--                    <groupId>org.mybatis</groupId>-->
+<!--                    <artifactId>mybatis</artifactId>-->
+<!--                </exclusion>-->
+<!--            </exclusions>-->
+
+
+<!--        </dependency>-->
+<!--        <dependency>-->
+<!--            <groupId>log4j</groupId>-->
+<!--            <artifactId>log4j</artifactId>-->
+<!--            <version>1.2.17</version>-->
+<!--        </dependency>-->
+
+<!--        <dependency>-->
+<!--            <groupId>org.mybatis</groupId>-->
+<!--            <artifactId>mybatis</artifactId>-->
+<!--            <version>3.5.11</version>-->
+<!--        </dependency>-->
+
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>8.0.30</version>
+        </dependency>
+        <dependency>
+            <groupId>com.qfedu</groupId>
+            <artifactId>maven_03_domain</artifactId>
+            <version>1.0-SNAPSHOT</version>
+<!--            <scope>compile</scope>-->
+        </dependency>
+    </dependencies>
+</project>

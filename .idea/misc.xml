@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/spring_multi_module/maven_01_pro/src/main/resources" />
+    <file type="web" url="file://$PROJECT_DIR$/spring_multi_module/maven_03_domain" />
+    <file type="web" url="file://$PROJECT_DIR$/spring_multi_module/maven_04_dao" />
+    <file type="web" url="file://$PROJECT_DIR$/spring_multi_module/springmvc_ssm_02_result" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/springmvc_ssm/pom.xml" />
+        <option value="$PROJECT_DIR$/spring_multi_module/maven_04_dao/pom.xml" />
+        <option value="$PROJECT_DIR$/spring_multi_module/maven_03_domain/pom.xml" />
+        <option value="$PROJECT_DIR$/spring_multi_module/maven_01_project/pom.xml" />
+        <option value="$PROJECT_DIR$/spring_multi_module/springmvc_ssm_02_result/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
+</project>

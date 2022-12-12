@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.qfedu</groupId>
+    <artifactId>maven_01_pro</artifactId>
+    <version>1.0-SNAPSHOT</version>
+<!--     默认打包方式-->
+<!--    <packaging>jar</packaging> -->
+<!--    web打包方式-->
+<!--    <packaging>war</packaging>-->
+<!--     pom聚合方式-->
+      <packaging>pom</packaging>
+
+
+<!--    设置管理的模块名称 -->
+    <modules>
+        <module>../springmvc_ssm_02_result</module>
+        <module>../maven_03_domain</module>
+        <module>../maven_04_dao</module>
+    </modules>
+
+
+<!--    父工程-->
+    <dependencies>
+    <dependency>
+        <groupId>org.springframework</groupId>
+        <artifactId>spring-webmvc</artifactId>
+        <version>${spring-version}</version>
+    </dependency>
+
+    <dependency>
+        <groupId>org.springframework</groupId>
+        <artifactId>spring-jdbc</artifactId>
+        <version>${spring-version}</version>
+    </dependency>
+
+    <dependency>
+        <groupId>org.springframework</groupId>
+        <artifactId>spring-test</artifactId>
+        <version>${spring-version}</version>
+    </dependency>
+
+    <dependency>
+        <groupId>org.mybatis</groupId>
+        <artifactId>mybatis</artifactId>
+        <version>${mybatis-version}</version>
+    </dependency>
+
+    <dependency>
+        <groupId>org.mybatis</groupId>
+        <artifactId>mybatis-spring</artifactId>
+        <version>${mybatis-spring-version}</version>
+    </dependency>
+
+    <dependency>
+        <groupId>mysql</groupId>
+        <artifactId>mysql-connector-java</artifactId>
+        <version>${mysql-connector-java-version}</version>
+    </dependency>
+    <dependency>
+        <groupId>com.alibaba</groupId>
+        <artifactId>druid</artifactId>
+        <version>${druid-version}</version>
+        <scope>test</scope>
+    </dependency>
+
+
+    <dependency>
+        <groupId>javax.servlet</groupId>
+        <artifactId>javax.servlet-api</artifactId>
+        <version>${javax.servlet-api-version}</version>
+        <scope>provided</scope>
+    </dependency>
+
+</dependencies>
+
+<!--    定义自定义属性-->
+    <properties>
+        <spring-version>5.2.10.RELEASE</spring-version>
+        <mybatis-version>3.5.11</mybatis-version>
+        <mybatis-spring-version>1.3.0</mybatis-spring-version>
+        <mysql-connector-java-version>8.0.30</mysql-connector-java-version>
+        <javax.servlet-api-version>3.1.0</javax.servlet-api-version>
+        <druid-version>1.1.19</druid-version>
+<!--        <tomcat7-maven-plugin-version>2.2</tomcat7-maven-plugin-version>-->
+        <junit-version>4.12</junit-version>
+
+<!--        <jdbc.url>jdbc:mysql://localhost://127.0.0.1:3306/ssm_db</jdbc.url>-->
+    </properties>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>junit</groupId>
+                <artifactId>junit</artifactId>
+                <version>${junit-version}</version>
+                <scope>test</scope>
+            </dependency>
+        </dependencies>
+
+    </dependencyManagement>
+<!--    命令 mvn install -P 加上定义的唯一名称-->
+<!--    多环境开发-->
+    <profiles>
+<!--        定义具体环境： 开发环境-->
+        <profile>
+<!--          定义环境对应的唯一名称 -->
+            <id>env_dep</id>
+<!--            定义环境中专用的属性值-->
+           <properties>
+               <jdbc.url>jdbc:mysql://localhost://127.1.1.1:3306/ssm_db</jdbc.url>
+           </properties>
+<!--            设置是否启动默认环境-->
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+        </profile>
+
+<!--       定义具体环境： 生产环境-->
+        <profile>
+            <id>env_pro</id>
+            <properties>
+                <jdbc.url>jdbc:mysql://localhost://127.2.2.2:3306/ssm_db</jdbc.url>
+            </properties>
+            <!--            设置默认启动环境-->
+<!--            <activation>-->
+<!--                <activeByDefault>true</activeByDefault>-->
+<!--            </activation>-->
+        </profile>
+
+<!--          定义具体环境： 测试环境-->
+        <profile>
+            <id>env_test</id>
+            <properties>
+                <jdbc.url>jdbc:mysql://localhost://127.3.3.3:3306/ssm_db</jdbc.url>
+            </properties>
+            <!--            设置默认启动环境-->
+<!--            <activation>-->
+<!--                <activeByDefault>true</activeByDefault>-->
+<!--            </activation>-->
+        </profile>
+    </profiles>
+
+
+
+    <build>
+        <resources>
+            <resource>
+<!--                设置资源目录 并设置能够解析${}-->
+                <directory>${project.basedir}/src/main/resources</directory>
+                <filtering>true</filtering>
+            </resource>
+        </resources>
+        <plugins>
+            <plugin>
+<!--                跳过测试指令：mvn install -D skipTests-->
+<!--                测试插件-->
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>2.12.4</version>
+                <configuration>
+<!--                    true跳过测试  false 需要-->
+                    <skipTests>false</skipTests>
+<!--                    排除掉不参与测试的内容-->
+                    <excludes>
+                        <exclude>**/BoolServiceTest.java</exclude>
+                    </excludes>
+                </configuration>
+
+            </plugin>
+        </plugins>
+    </build>
+
+<!--    -->
+    <distributionManagement>
+        <repository>
+            <id>maven-releases</id>
+            <url>http://localhost:8081/repository/maven-releases/</url>
+        </repository>
+        <snapshotRepository>
+            <id>maven-snapshots</id>
+            <url>http://localhost:8081/repository/maven-snapshots/</url>
+        </snapshotRepository>
+    </distributionManagement>
+
+<!--<build>-->
+<!--<plugins>-->
+<!--    <plugin>-->
+<!--        <groupId>org.apache.tomcat.maven</groupId>-->
+<!--        <artifactId>tomcat7-maven-plugin</artifactId>-->
+<!--        <version>${tomcat7-maven-plugin-version}</version>-->
+<!--        <configuration>-->
+<!--            <port>80</port>-->
+<!--            <path>/</path>-->
+<!--        </configuration>-->
+<!--    </plugin>-->
+<!--</plugins>-->
+<!--</build>-->
+
+</project>
