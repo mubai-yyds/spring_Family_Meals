@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/spring_MyBatis整合/Mybatas_day1.iml" filepath="$PROJECT_DIR$/spring_MyBatis整合/Mybatas_day1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring_case_interface_run_speed/spring_MyBatis.iml" filepath="$PROJECT_DIR$/spring_case_interface_run_speed/spring_MyBatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring_case_transfer/spring_MyBatis (1).iml" filepath="$PROJECT_DIR$/spring_case_transfer/spring_MyBatis (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring_aop_qulckstart/spring_aop_qulckstart.iml" filepath="$PROJECT_DIR$/spring_aop_qulckstart/spring_aop_qulckstart.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring_aop_advice_data/spring_aop_qulckstart (1).iml" filepath="$PROJECT_DIR$/spring_aop_advice_data/spring_aop_qulckstart (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring_case_hanndle_password/spring_aop_qulckstart (2).iml" filepath="$PROJECT_DIR$/spring_case_hanndle_password/spring_aop_qulckstart (2).iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/spring_mybatis.iml" filepath="$PROJECT_DIR$/.idea/spring_mybatis.iml" />
+    </modules>
+  </component>
+</project>

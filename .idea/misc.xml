@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/spring_case_interface_run_speed" />
+    <file type="web" url="file://$PROJECT_DIR$/spring_case_transfer" />
+    <file type="web" url="file://$PROJECT_DIR$/spring_MyBatis整合" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/spring_MyBatis整合/pom.xml" />
+        <option value="$PROJECT_DIR$/spring_aop_qulckstart/pom.xml" />
+        <option value="$PROJECT_DIR$/spring_case_interface_run_speed/pom.xml" />
+        <option value="$PROJECT_DIR$/spring_aop_advice_data/pom.xml" />
+        <option value="$PROJECT_DIR$/spring_case_hanndle_password/pom.xml" />
+        <option value="$PROJECT_DIR$/spring_case_transfer/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
+</project>
