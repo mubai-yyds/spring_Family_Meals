@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5f435ac2-66ef-4359-89a4-6cc82072259b" name="变更" comment="">
+      <change beforePath="$PROJECT_DIR$/../../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_07_autoware/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_07_autoware/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_07_autoware/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_07_autoware/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qfedu/AppForDICollection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qfedu/AppForDICollection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qfedu/dao/impl/BookDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qfedu/dao/impl/BookDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring_mybatis/SpringBatis_Plus/springmybatisplus_03/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring_mybatis/SpringBatis_Plus/springmybatisplus_03/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot/boot_02_read_data" beforeDir="false" afterPath="$PROJECT_DIR$/../../springboot/boot_02_read_data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot/boot_03_profile" beforeDir="false" afterPath="$PROJECT_DIR$/../../springboot/boot_03_profile" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2HXMntBUSfSopNJuFphzOAx052R" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="flattenModules" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="false" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../spring_10_datasource" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="5f435ac2-66ef-4359-89a4-6cc82072259b" name="变更" comment="" />
+      <created>1668427147895</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1668427147895</updated>
+      <workItem from="1668427149025" duration="5000" />
+      <workItem from="1669874641973" duration="135000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

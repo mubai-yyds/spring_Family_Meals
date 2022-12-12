@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="bdf0dae9-688a-4c84-9d6d-4a60391c91bf" name="变更" comment="">
+      <change afterPath="$PROJECT_DIR$/../spring_10_datasource/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_10_datasource/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_07_autoware/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_07_autoware/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_07_autoware/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_07_autoware/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_09_bean_lifecycle/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_09_bean_lifecycle/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_09_bean_lifecycle/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_09_bean_lifecycle/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_09_bean_lifecycle/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_09_bean_lifecycle/spring_09_bean_lifecycle.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_09_bean_lifecycle/src/main/java/com/qfedu/AppForDICollection.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_09_bean_lifecycle/src/main/java/com/qfedu/AppForDICollection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_09_bean_lifecycle/src/main/java/com/qfedu/dao/impl/BookDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_09_bean_lifecycle/src/main/java/com/qfedu/dao/impl/BookDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_10_datasource/src/main/java/com/qfedu/AppForBeanFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_10_datasource/src/main/java/com/qfedu/AppForBeanFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_10_datasource/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_10_datasource/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/AppForAnnotation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/AppForAnnotation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/AppForAnnotation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/AppForAnnotation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qfedu/config/SpringConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qfedu/config/SpringConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring_mybatis/SpringBatis_Plus/springmybatisplus_03/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring_mybatis/SpringBatis_Plus/springmybatisplus_03/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot/boot_02_read_data" beforeDir="false" afterPath="$PROJECT_DIR$/../../springboot/boot_02_read_data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot/boot_03_profile" beforeDir="false" afterPath="$PROJECT_DIR$/../../springboot/boot_03_profile" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2HaAeojKcNNPzPBDVlmRepf38PD" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="flattenModules" value="true" />
+    <option name="showExcludedFiles" value="false" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="E:/桌面/上海校区实训笔记/spring/maven-mvc-mybatis" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="模块" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunManager" selected="应用程序.AppForAnnotation">
+    <configuration name="AppForAnnotation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.AppForAnnotation" />
+      <module name="spring_11_annotation_bean" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Appdata" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.qfedu.Appdata" />
+      <module name="spring_11_annotation_bean" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qfedu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="应用程序.AppForAnnotation" />
+        <item itemvalue="应用程序.Appdata" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="bdf0dae9-688a-4c84-9d6d-4a60391c91bf" name="变更" comment="" />
+      <created>1668512921839</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1668512921839</updated>
+      <workItem from="1668512922969" duration="9000" />
+      <workItem from="1669874897700" duration="627000" />
+      <workItem from="1669883223716" duration="338000" />
+      <workItem from="1669883578512" duration="70000" />
+      <workItem from="1669883663155" duration="1208000" />
+      <workItem from="1669884916484" duration="927000" />
+      <workItem from="1669886955725" duration="1116000" />
+      <workItem from="1669904517828" duration="162000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

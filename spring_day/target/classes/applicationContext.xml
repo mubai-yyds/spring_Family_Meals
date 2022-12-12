@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<!--    1.导入spring的坐标spring-context ， 对应版本导包-->
+
+<!--    2.配置bean-->
+<!--    bean标签表示配置bean-->
+<!--    id属性表示给bean起名字-->
+<!--    class属性表示给bean定义类型-->
+    <!--di-->
+    <!--        7.配置server与dao的关系-->
+    <!--        property标签表示配置当前bean的属性-->
+    <!--        name属性表示配置哪一个具体的属性-->
+    <!--        ref属性表示参照哪一个bean-->
+<!--    name="service service2"-->
+    <bean id="bookService"  class="com.qfedu.service.impl.BookServiceImpl">
+      <property name="bookDao" ref="bookDao"/>
+      <property name="userDao" ref="userDao"/>
+    </bean>
+
+<!--    <bean id="bookDao"  class="com.qfedu.dao.impl.BookDaoImpl" init-method="destory" destroy-method="destory"/>-->
+    <bean id="bookDao"  class="com.qfedu.dao.impl.BookDaoImpl" >
+        <property name="databaseName" value="mysql"/>
+        <property name="connecttionNum" value="1000" />
+
+    </bean>
+    <bean id="userDao" class="com.qfedu.dao.impl.UserDaoImpl"/>
+<!--    方式一： 构造方法比例话bean-->
+<!--    <bean id="bookDao" class="com.qfedu.dao.impl.BookDaoImpl"/>-->
+<!--    方式二： 使用静态工厂实例化bean-->
+<!--    <bean id="orderDao" class="com.qfedu.factory.OrderDaoFactory" factory-method="getOrderDao"/>-->
+
+<!--    方式三 ： 使用实例工厂实例化bean-->
+<!--    先造工厂对象-->
+<!--    <bean id="userFactroy" class="com.qfedu.factory.UserDaoFactory"/>-->
+
+<!--    <bean id="userDao"  factory-method="getUserDao" factory-bean="userFactroy"></bean>-->
+
+<!--    方式四 ： 使用FactoryBean实例化-->
+<!--    <bean id="userDao" class="com.qfedu.factory.UserDaoFactoryBean"/>-->
+
+</beans>
