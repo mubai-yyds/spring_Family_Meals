@@ -1,0 +1,7 @@
+#server:
+#  port: 6996
+
+#debug 日志   info正常   warn 最简洁  配置是有层级等级的
+#logging:
+#   level:
+#     root: info
