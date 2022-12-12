@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spring_day (8)" />
+        <module name="spring_day (9)" />
+        <module name="spring_day (6)" />
+        <module name="spring_day" />
+        <module name="spring_day (7)" />
+        <module name="spring_day (4)" />
+        <module name="spring_day (5)" />
+        <module name="spring_day (2)" />
+        <module name="spring_day (3)" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="spring_day" target="1.8" />
+      <module name="spring_day (1)" target="1.8" />
+      <module name="spring_day (2)" target="1.8" />
+      <module name="spring_day (3)" target="1.8" />
+      <module name="spring_day (4)" target="1.8" />
+      <module name="spring_day (5)" target="1.8" />
+      <module name="spring_day (6)" target="1.8" />
+      <module name="spring_day (7)" target="1.8" />
+      <module name="spring_day (8)" target="1.8" />
+      <module name="spring_day (9)" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
